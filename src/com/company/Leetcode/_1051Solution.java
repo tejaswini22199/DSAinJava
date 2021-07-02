@@ -1,5 +1,8 @@
 package com.company.Leetcode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class _1051Solution {
     public int heightChecker(int[] heights) {
         Map<Integer,Integer> freqOfHeights=new HashMap<Integer,Integer>();
